@@ -1,6 +1,6 @@
 # Portfolio Acquisition
 
-The portfolio acquisition model is essentially a decision-making tool used to produce a bid that investors will make on an existing portfolio of loans. In this case, the loans are Home Equity Lines Of Credit because they are secured by the borrowers property, as is the ‘first mortgage’) typically with a maximum term of 15 years, with interest-only payments (see https://finpricing.com/lib/FiBondCoupon.html) terminating in a final bullet payment. Borrowing is allowed up to the credit limit at any time at a variable rate tied to prime–can be fixed or floating–partial principal repayments are allowed, but not scheduled.
+The portfolio acquisition model is essentially a decision-making tool used to produce a bid that investors will make on an existing portfolio of loans. In this case, the loans are Home Equity Lines Of Credit because they are secured by the borrowers property, as is the ‘first mortgage’) typically with a maximum term of 15 years, with interest-only payments terminating in a final bullet payment. Borrowing is allowed up to the credit limit at any time at a variable rate tied to prime–can be fixed or floating–partial principal repayments are allowed, but not scheduled.
 
 Prior to modeling, the portfolio will have been carved up into reasonably homogeneous pieces–which the present relatively simple model might be expected to represent fairly well. As part of this ‘risk screening’, the charge-off rates are estimated from the credit quality (and other characteristics) of the loans in the portfolio. How well this is done will affect the results produced by the model–this process will not be examined here.
 
@@ -26,4 +26,8 @@ What follows is a brief overview of how the model generates expected cashflows f
   
 	The average account balance during month i.
 
+References:
 
+https://finpricing.com/lib/FiBondCoupon.html
+
+https://derivatives.hcommons.org/interest-rate-derivatives/
